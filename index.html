@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>header responsive</title>
+</head>
+
+<body>
+
+    <div id="container_app">
+        <h1 class="sin_app_select">FAVOR SELECCIONE UN APP</h1>
+        <div class="container-contador">
+            <h1 id="titulo_contador">CONTADOR DE VUELTAS</h1>
+            <div id="container_conteo">
+                <span class="contador">0</span>
+            </div>
+            <div id="container-control">
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+            </div>
+        </div>
+
+        <div class="container-cronometro">
+            <h1 id="titulo_contador">CRONOMETRO</h1>
+            <div id="container_conteo">
+                <span class="contador">0</span>
+            </div>
+            <div id="container-control">
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="aplicaciones">
+        <H2 id="titulo_app">Apps</H2>
+        <div class="d-grid gap-2 col-1 mx-auto">
+            <button class="btn btn-primary" id="btn-app-contador" type="button">CONTADOR</button>
+            <button class="btn btn-primary" id="btn-app-cronometro" type="button">CRONOMETRO</button>
+        </div>
+
+    </div>
+
+    <!-- Mensajes de alerta -->
+    <div class="alert alert-danger" role="alert">
+        Existe otra aplicacion abierta !!</div>
+
+    <script src="/main.js">
+    </script>
+</body>
+
+
+
+</html>
